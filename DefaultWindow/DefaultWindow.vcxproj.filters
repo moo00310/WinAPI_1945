@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_MainGame">
+      <UniqueIdentifier>{304d2f60-8fc7-44c3-a14f-350ef0e89851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object">
+      <UniqueIdentifier>{4f4da7dd-14cb-4583-b7bb-7c4b9e51c6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\00_ObJect">
+      <UniqueIdentifier>{99b65ba0-e37d-4d4c-852a-60b8287d01aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\01_Player">
+      <UniqueIdentifier>{08f664e1-cf66-4e84-aaa2-96a6ed05c901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet">
+      <UniqueIdentifier>{6da06068-545e-4e34-940e-0366c727ceb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\03_Monster">
+      <UniqueIdentifier>{c2c2d751-a55c-45e7-bc58-00654736e856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Design_Patten">
+      <UniqueIdentifier>{545cd13e-dc9f-4220-89d5-2466aadf2e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Design_Patten\AbstractFactory">
+      <UniqueIdentifier>{e8d41fee-4047-4dbf-ab70-52b2360d069f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Design_Patten\CollisionManager">
+      <UniqueIdentifier>{da3d0547-d269-40bc-a496-39a0f1d786bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Scene">
+      <UniqueIdentifier>{4c2da9d7-717a-4439-8b32-f4dd35c022a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Mouse">
+      <UniqueIdentifier>{98854199-bbfe-4be2-b120-939413ff530c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\03_Monster\00_Monster">
+      <UniqueIdentifier>{6947a676-0899-4869-acec-342334004ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\03_Monster\01.MonsterDown">
+      <UniqueIdentifier>{97903bcd-a64e-47ca-8a5d-ceb50302baa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\03_Monster\02.MonsterCircle">
+      <UniqueIdentifier>{c152e5db-aa91-4021-9a7e-2e41e46207cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet\00_Bullet">
+      <UniqueIdentifier>{3da97486-fe23-4211-8b0d-97f49d5ab341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet\01_Player_Bullet">
+      <UniqueIdentifier>{b6d45c4a-eecc-45b5-b2a7-df98b419f92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet\02_Monster_Bullet">
+      <UniqueIdentifier>{02c95d2c-0335-4fa9-a633-85f70919d090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\04_Pet">
+      <UniqueIdentifier>{2c23d4d4-ae20-40fe-8f73-9cf7e80acbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\04_Pet\00_Pet">
+      <UniqueIdentifier>{6b5429db-4713-4241-b3b1-b3298051b6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\04_Pet\01_Rotation_Pet">
+      <UniqueIdentifier>{243bcc6a-dd86-4b36-9cbc-b1047d3267dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\04_Pet\02_Curve_Pet">
+      <UniqueIdentifier>{1110bd24-0961-45f8-b882-95258619d70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Item">
+      <UniqueIdentifier>{ecf647a8-7d6b-4c38-804b-1a92425e0460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\03_Monster\03.BossMob">
+      <UniqueIdentifier>{bfa7c332-7f51-441e-ad48-c1336b68cefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet\03_Monster_Bullet02">
+      <UniqueIdentifier>{947036ca-313f-4c34-93db-61dff729f8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\04_Pet\03_Tracking_Pet">
+      <UniqueIdentifier>{2df717e0-cf8b-459a-b525-4fc6d29786a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__정신차리자">
+      <UniqueIdentifier>{e10e586c-4624-400c-aa97-634cb9aaeeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Object\02_Bullet\04_Pet_Bullet">
+      <UniqueIdentifier>{4ffd777d-ff2a-48db-b492-f28a01187415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Item\BoomEffect">
+      <UniqueIdentifier>{3851587f-2457-411a-81bb-30b32c2180d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Resource_Mgr">
+      <UniqueIdentifier>{05d3add2-b949-4a63-aaa9-9a3baef8f747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Resource_Mgr\Textures">
+      <UniqueIdentifier>{632e96aa-1aa1-4a6e-bd19-5cf7f460b423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Resource_Mgr\Res">
+      <UniqueIdentifier>{681e4b06-90f9-4395-a0f4-24f88fd9e364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>01_Object\00_ObJect</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01_Object\01_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02_Design_Patten\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02_Design_Patten\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>04_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>03_Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01_Object\03_Monster\00_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDown.h">
+      <Filter>01_Object\03_Monster\01.MonsterDown</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterCircle.h">
+      <Filter>01_Object\03_Monster\02.MonsterCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01_Object\02_Bullet\00_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Bullet.h">
+      <Filter>01_Object\02_Bullet\01_Player_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Bullet.h">
+      <Filter>01_Object\02_Bullet\02_Monster_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>01_Object\04_Pet\00_Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve_Pet.h">
+      <Filter>01_Object\04_Pet\02_Curve_Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation_Pet.h">
+      <Filter>01_Object\04_Pet\01_Rotation_Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>05_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMob.h">
+      <Filter>01_Object\03_Monster\03.BossMob</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Bullet02.h">
+      <Filter>01_Object\02_Bullet\03_Monster_Bullet02</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking_Pet.h">
+      <Filter>01_Object\04_Pet\03_Tracking_Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet_Bullet.h">
+      <Filter>01_Object\02_Bullet\04_Pet_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomEffect.h">
+      <Filter>05_Item\BoomEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>06_Resource_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>06_Resource_Mgr\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>06_Resource_Mgr\Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>01_Object\00_ObJect</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01_Object\01_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02_Design_Patten\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>04_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>03_Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01_Object\03_Monster\00_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDown.cpp">
+      <Filter>01_Object\03_Monster\01.MonsterDown</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterCircle.cpp">
+      <Filter>01_Object\03_Monster\02.MonsterCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01_Object\02_Bullet\00_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Bullet.cpp">
+      <Filter>01_Object\02_Bullet\01_Player_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Bullet.cpp">
+      <Filter>01_Object\02_Bullet\02_Monster_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>01_Object\04_Pet\00_Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve_Pet.cpp">
+      <Filter>01_Object\04_Pet\02_Curve_Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation_Pet.cpp">
+      <Filter>01_Object\04_Pet\01_Rotation_Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>05_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMob.cpp">
+      <Filter>01_Object\03_Monster\03.BossMob</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Bullet02.cpp">
+      <Filter>01_Object\02_Bullet\03_Monster_Bullet02</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracking_Pet.cpp">
+      <Filter>01_Object\04_Pet\03_Tracking_Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet_Bullet.cpp">
+      <Filter>01_Object\02_Bullet\04_Pet_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomEffect.cpp">
+      <Filter>05_Item\BoomEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>06_Resource_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>06_Resource_Mgr\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>06_Resource_Mgr\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
